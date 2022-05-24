@@ -33,9 +33,6 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
       # t.datetime :locked_at
 
       t.string :nickname,      null: false
-      t.integer :genre_id,     null: false
-      t.integer :age_id,       null: false
-      t.integer :purpose_id,   null: false
       t.text :memo
       t.string :profile_image_id
       t.timestamps null: false

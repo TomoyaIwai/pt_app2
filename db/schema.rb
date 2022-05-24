@@ -19,9 +19,6 @@ ActiveRecord::Schema.define(version: 2022_05_21_100352) do
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
     t.string "nickname", null: false
-    t.integer "genre_id", null: false
-    t.integer "age_id", null: false
-    t.integer "purpose_id", null: false
     t.text "memo"
     t.string "profile_image_id"
     t.datetime "created_at", precision: 6, null: false
