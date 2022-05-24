@@ -62,3 +62,5 @@ gem "refile-mini_magick"
 gem "bulma-rails"
 
 gem 'active_hash'
+
+gem 'image_processing', '~> 1.2'
