@@ -38,6 +38,10 @@
     <% if user_signed_in? %>
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-item">
+          <%= link_to "ルーム一覧", rooms_path, class: "navbar-item button is-danger is-light" %>
+        </div>
+        <div class="navbar-item">
+          <%= link_to "新規投稿", new_room_path, class: "navbar-item button is-danger is-light" %>
         </div>
           <div class="navbar-end">
             <div class="navbar-item">
@@ -58,9 +62,6 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
-              <p class="control">
-                <%= link_to "ユーザー一覧", users_path, class: "button is-danger is-light" %>
-              </p>
               <p class="control">
                 <%= link_to "ログイン", new_user_session_path, class: "button is-primary is-light" %>
               </p>
