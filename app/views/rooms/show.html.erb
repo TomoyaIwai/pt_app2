@@ -19,15 +19,24 @@
             </figure>
           </div>
           <div class="card-content">
-            </div class="media">
-              </div class="media-content">
+            <div class="media">
+              <div class="media-content">
                 <p class="title is-4"><%= @room.title %></p>
               </div>
             </div>
             <div class="content">
-              </table class="table is-narrow">
+              <table class="table is-narrow">
+                <div class="media-content">
+                  <p>所属：<%= @room.genre %></p>
+                </div>
+                <div class="media-content">
+                  <p>年齢：<%= @room.age %></p>
+                </div>
+                <div class="media-content">
+                  <p>目的：<%= @room.purpose %></p>
+                </div>
                 <tr>
-                  <th>ルーム</th>
+                  <p><th>ルーム</th></p>
                 </tr>
                 <tr>
                   <td><%= simple_format @room.content %></td>
