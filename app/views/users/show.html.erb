@@ -48,4 +48,9 @@
   </div>
 </section>
 
-作成したroomは後で実装
+<% @user.rooms.each do |room| %>
+  <%= attachment_image_tag room, :image %>
+  <%= link_to "詳細", room_path(room) %>
+  <%= link_to "編集", edit_room_path(room) %>
+  <%= link_to "削除", room_path(room), method: :delete %>
+<% end %>
