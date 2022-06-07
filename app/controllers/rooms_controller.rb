@@ -17,7 +17,7 @@ class RoomsController < ApplicationController
     @room = Room.new(room_params)
     @room.user_id = current_user.id
     if @room.save
-      redirect_to room_path(@room)
+      redirect_to room_path(@room), notice: 'ルームを作成しました！'
     else
       render :new
     end
@@ -33,7 +33,7 @@ class RoomsController < ApplicationController
   def update
     @room = Room.find(params[:id])
     if @room.update(room_params)
-      redirect_to room_path(@room)
+      redirect_to room_path(@room), notice: '更新しました！'
     else
       render :edit
     end
