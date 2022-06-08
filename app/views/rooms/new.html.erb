@@ -1,4 +1,4 @@
-<section class="hero is-success">
+<section class="hero is-black">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -53,6 +53,10 @@
             <%= f.label :image, "写真", class: "label" %>
             <%= f.attachment_field :image, class: "input" %>
           </div>
-<%= f.submit %>
 
-<% end %>
+          <%= f.submit 'ルーム作成', class: "button is-success" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
