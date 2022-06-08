@@ -1,4 +1,4 @@
-<section class="hero is-success">
+<section class="hero is-black">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -68,7 +68,7 @@
                       <span class="panel-icon">
                         <i class="fas fa-book" aria-hidden="true"></i>
                       </span>
-                      このルームを見る
+                      <%= room.title %>
                     <% end %>
                   <% if @user.id == current_user.id %>
                     <%= link_to edit_room_path(room), class: "panel-block" do %>
