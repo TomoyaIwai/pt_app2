@@ -22,10 +22,10 @@ Basic認証
 * Friend登録、お気に入り登録機能
 
 ## データベース設計
-[![Image from Gyazo](https://gyazo.com/7c9d9fb3907d2110d6f44f9bd91fd5a9.jpg)](https://gyazo.com/7c9d9fb3907d2110d6f44f9bd91fd5a9)
+![サンプル画像](app/assets/images/rrrrr.png)
 
 ## 画面遷移図
-[![Image from Gyazo](https://gyazo.com/62cadafeff4d6f1d5ba074982102c944.jpg)](https://gyazo.com/62cadafeff4d6f1d5ba074982102c944)
+![サンプル画像](app/assets/images/eeee.png)
 
 ## テーブル設計
 
